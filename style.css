@@ -95,12 +95,34 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    
 }
 .notify-section{
     width: 35%;
     margin: 0 auto;
+    display: none;
+    
 }
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
 }
+
+#display{
+
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+}
+
+#pinDisplay{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+}
+
