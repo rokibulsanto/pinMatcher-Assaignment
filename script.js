@@ -14,3 +14,13 @@ function randomNumber(){
    
 };
 
+document.getElementById("submit-area").addEventListener('click',function(){
+
+    if((document.getElementById("display").value) == (document.getElementById("pinDisplay").value)){
+
+        document.getElementById("correct").style.display="block";
+    }
+    else{
+        document.getElementById("wrong").style.display="block";
+    }
+});
